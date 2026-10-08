@@ -7,7 +7,9 @@ This is a complete overhaul of the palbox's UI. It's one file to install and rem
 It is still a work in progress, so back up your saves before trying it out. I would also love to hear any feedback and any feature requests or bug reports.
 This _should_ be completely fine to use on multiplayer worlds that allow mods, but I have not thoroughly tested that yet. If any issues are found please [report them](../../issues)!
 
-![The palbox with a work suitability filter applied](screenshots/palbox.png)
+![The palbox](screenshots/palbox.png)
+
+![A work suitability filter applied, with the context bubbles and detail pane](screenshots/work-filter.png)
 
 ![The filter page](screenshots/filter-page.png)
 
