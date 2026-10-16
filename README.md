@@ -39,7 +39,6 @@ This _should_ be completely fine to use on multiplayer worlds that allow mods, b
    * It's the game's own expedition exclusion, so the expedition screen and its
      auto assign skip them too, and pals you've already excluded show up as never
      send
-   * The filter page has a never send chip to find them
 * Improved detail pane
    * You can apply markers or favorites by clicking on the icons in the detail pane
    * Reorganized pane so important features are clustered together - stats, IVs, and passives in the center
