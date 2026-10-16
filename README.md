@@ -33,6 +33,13 @@ This _should_ be completely fine to use on multiplayer worlds that allow mods, b
    * Hotkeys added to make moving through the palbox much quicker - F opens
      filters, Ctrl+F jumps to the searchbox, and in the filter page R resets and
      Esc closes
+* Expeditions - keep pals off expeditions right from the palbox
+   * Click a pal's expedition marker in the detail pane a second time to set it
+     to never send
+   * It's the game's own expedition exclusion, so the expedition screen and its
+     auto assign skip them too, and pals you've already excluded show up as never
+     send
+   * The filter page has a never send chip to find them
 * Improved detail pane
    * You can apply markers or favorites by clicking on the icons in the detail pane
    * Reorganized pane so important features are clustered together - stats, IVs, and passives in the center
@@ -61,9 +68,7 @@ This _should_ be completely fine to use on multiplayer worlds that allow mods, b
 
 5. Start the game and open any palbox
 
-To update, just replace the file with the new one. If you have
-`PalboxShadow_P.pak` from an earlier test build, delete it - it's the old name
-for the same mod, and having both will conflict.
+To update, just replace the file with the new one.
 
 ## Uninstalling
 
@@ -73,6 +78,7 @@ comes back next time you start the game.
 Your pals, boxes and bases aren't touched. A couple things to know:
 
 * Favs 1-3 are the game's own locks, so they stay as the normal lock icons
+* Never send is the game's own expedition exclusion, so those pals stay excluded
 * Favs 4-5 and the markers are saved in the mod's own file, so the normal palbox
   won't show them. They come back if you reinstall. If you want them gone for
   good, delete the matching `PalboxUI_<WorldID>.sav` in:
